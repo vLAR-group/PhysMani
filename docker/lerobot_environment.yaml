@@ -1,0 +1,40 @@
+name: 3d_diffuser_actor
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - ffmpeg=7.1.1
+  - pip:
+    # core utils
+    - numpy>=1.24.0
+    - pillow
+    - einops
+    - typed-argument-parser
+    - tqdm
+    - absl-py
+    - matplotlib
+    - scipy
+    - tensorboard
+    - blosc
+    - setuptools>=65.0.0
+    # vision / NLP
+    - transformers>=4.30.0
+    - opencv-python
+    # jupyter ecosystem
+    - jupyter-core>=4.7
+    - jupyterlab-pygments
+    - mistune>=2.0.5
+    - nbclient>=0.5.0
+    - nbformat>=5.7
+    - pandocfilters>=1.4.1
+    - traitlets>=5.1
+    # security / html
+    - beautifulsoup4
+    - bleach>=6.0.0
+    - defusedxml
+    - jinja2>=3.0
+    - tinycss2
+    # CLIP
+    - git+https://github.com/openai/CLIP.git

@@ -1,0 +1,44 @@
+{
+  "manifest_version": 1,
+  "repositories": {
+    "physmani": {
+      "url": "https://github.com/pyun-ram/PhysMani-3DDA.git",
+      "training_commit": "341e69161ad5ed8f4a7905dac87cf8e9aed6cb4a",
+      "evaluation_commit": "d6e15abbbde45e92cf885671448600a3ff1b6d06"
+    },
+    "3dfa": {
+      "url": "https://github.com/pyun-ram/updated_3d_diffuser_actor.git",
+      "training_commit": "f5121d4279a9f0c72dc23b46aaac1af01b4fa353",
+      "evaluation_commit": "0d4339622d41df2b8cd224cb9cf3fbb22551035a"
+    },
+    "rlbench": {
+      "url": "https://github.com/pyun-ram/PhysMani-RLBench.git",
+      "commit": "0cc1948f59eda6e8bbbe32b759c869aa8be63ecd"
+    },
+    "pyrep": {
+      "url": "https://github.com/pyun-ram/PyRep.git",
+      "commit": "7b7f6328a22c35262b4e93446563a0e68a31b870"
+    }
+  },
+  "dataset": {
+    "name": "physmani_bench"
+  },
+  "evaluation": {
+    "checkpoint_selection": "last_5",
+    "protocol_source": "Use the evaluation scripts from each method-specific evaluation commit."
+  },
+  "third_party": {
+    "Deformable-3D-Gaussians": {
+      "commit": "ac423728df780ee57a82025a6d7c4c7312fdf9bb"
+    },
+    "diff-gaussian-rasterization-extentions": {
+      "commit": "2eb32ea251d3b339dab3af8b6fd78d7dec3caf8e"
+    },
+    "gsplat": {
+      "commit": "b60e917c95afc449c5be33a634f1f457e116ff5e"
+    },
+    "pytorch3d": {
+      "commit": "f5f6b78e70e0a1b70f3be9a09b5b001e9b3a7a03"
+    }
+  }
+}

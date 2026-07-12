@@ -1,0 +1,15 @@
+.git
+third_party
+**/.git
+third_party/worktrees
+Data
+data
+train_logs
+eval_logs
+**/Data
+**/data
+**/train_logs
+**/eval_logs
+*.tar
+*.tar.gz
+third_party/updated_3d_diffuser_actor/instructions/instructions

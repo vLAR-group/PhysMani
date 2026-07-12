@@ -4,3 +4,5 @@ Thumbs.db
 *.swp
 *.swo
 
+# Generated method-specific checkouts created from the pinned source submodule.
+third_party/worktrees/

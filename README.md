@@ -28,7 +28,7 @@ The exact release versions are recorded in `[reproducibility/versions.json](repr
 ## Clone
 
 ```bash
-git clone --recursive https://github.com/pyun-ram/PhysMani.git
+git clone --recursive https://github.com/vLAR-group/PhysMani.git
 cd PhysMani
 export PHYSMANI_ROOT_DIR="$(pwd)"
 ```

@@ -8,7 +8,15 @@
 
 PhysMani is a framework for manipulating fast and dynamically moving targets in unstructured 3D environments. It couples a physics-principled 3D Gaussian world model (inspired by [FreeGave](https://github.com/vLAR-group/FreeGave) with a future-aware action policy, enabling physically grounded future-dynamics prediction and low-latency action generation.
 
+![PhysMani framework overview](./assets/framework_overview.png)
+
+*Figure 1. PhysMani framework: the physics-principled 3D Gaussian world model (top right) and the future-aware action policy (bottom right). The world model is optimized online and predicts a divergence-free Gaussian velocity field as future dynamics; the policy fuses the predicted future dynamics into action prediction through a learnable cross-attention.*
+
 This pre-release provides the minimal code, Docker environment, data links, and scripts needed to run PhysMani training and simulation evaluation on PhysMani-Bench.
+
+![PhysMani-Bench examples](./assets/physmani_bench.webp)
+
+*Figure 2. PhysMani-Bench examples. Eight task groups, each with a normal-speed and a high-speed variant, giving 16 tasks in total.*
 
 ## Release Scope
 
